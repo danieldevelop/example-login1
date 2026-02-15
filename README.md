@@ -1,5 +1,7 @@
 # 📎 Example Login 1
 
+![Example Login](https://danieldevelop.github.io/example-login1/img/prototype.png)
+
 ## 📋 Descripcion
 
 Login de autenticacion ejemplo 1
