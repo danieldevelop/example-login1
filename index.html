@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Inicio de sesión para acceder a la plataforma de ejemplo.">
+    <title>Example Login 1</title>
+    <link rel="shortcut icon" href="https://danieldevelop.github.io/example-login1/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://danieldevelop.github.io/example-login1/css/style.css">
+</head>
+<body>
+
+    <main class="login-container">
+        <figure>
+            <img src="https://danieldevelop.github.io/example-login1/img/avatar.png" alt="avatar">
+        </figure>
+
+        <h1>Iniciar Sesión</h1>
+
+        <form id="login-form">
+            <div class="input-group">
+                <i class="fas fa-user"></i>
+                <input type="text" name="email" id="email" placeholder="Username / Email">
+            </div>
+
+            <div class="input-group">
+                <i class="fas fa-lock"></i>
+                <input type="password" name="password" id="password" placeholder="Password">
+            </div>
+
+            <button type="submit">Iniciar Sesión</button>
+        </form>
+
+        <div class="loader-container" id="loader-container">
+            <div class="loader" id="loader"></div>
+            <p class="processing-text">Validando...</p>
+        </div>
+
+        <p class="error-message" id="error-message"></p>
+
+        <p class="forgot-password"><a href="#">¿Olvidaste tu contraseña?</a></p>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://kit.fontawesome.com/141371d4e4.js" crossorigin="anonymous"></script>
+    <script src="https://danieldevelop.github.io/example-login1/js/main.js"></script>
+</body>
+</html>
