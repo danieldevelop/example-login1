@@ -1,6 +1,6 @@
 # 📎 Example Login 1
 
-![Example Login](https://danieldevelop.github.io/example-login1/img/prototype.png)
+![Example Login](img/prototype-example-login1.png)
 
 ## 📋 Descripcion
 
